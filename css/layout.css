@@ -1,0 +1,169 @@
+:root {
+
+}
+
+* {
+    /* border: 1px solid silver; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 0px 12px;
+    color: hsl(236, 13%, 42%);
+}
+
+nav {
+    display: flex;
+    width: 95.5vw;
+    background-color: hsl(36, 100%, 99%);
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.header-container {
+    background-color: silver;
+    min-height: 500px;
+    display: flex;
+}
+
+.right-side {
+    flex: 9;
+    background-color: hsl(36, 100%, 99%);
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side {
+    flex: 3;
+    flex-direction: row;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 0px 7px;
+
+}
+.new{
+    color: var(--softOrange);
+    padding: 12px 12px;
+}
+.lheader{
+    padding: 0px 12px;
+    font-size: 20px;
+}
+.lp{
+    padding: 0px 12px;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+}
+hr{
+    width: 22vw;
+    margin: 50px 0px 50px 6px;
+    border: 1px solid  hsl(233, 8%, 79%);
+
+}
+
+.image-container {
+    height: 65vh;
+    overflow: hidden;
+    margin-right: 1.5rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.title-container {
+    min-height: 20px;
+    display: flex;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.title{
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    font-size: 30px;
+    color: hsl(240, 100%, 5%);
+}
+.details{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+}
+button{
+    background-color:hsl(5, 85%, 63%);
+    width: 8rem;
+    height: 2rem;
+    padding: 5px 5px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    transition: .3 ease-in-out;
+}
+
+.last-row-container{
+    display: flex;
+    background-color: hsl(36, 100%, 99%);
+    min-height: 20vh;
+    padding: 60px 0px;
+}
+.first{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+.second{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    margin-left: 6.5rem;
+   
+}
+.third{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    margin-left: 12rem;
+   
+}
+.text{
+    margin-top: -10px;
+    
+}
+.sub-head{
+    font-weight: bold;
+    color: hsl(240, 100%, 5%);
+}
+.last-row-container img{
+    width: 15vh;
+}
+.char{
+    margin:  -8.5rem 0px 0px 7rem;
+}
+.numbers{
+    color: hsl(233, 8%, 79%);
+}
+.text{
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
